@@ -1,8 +1,13 @@
-
+import { Link } from "react-router";
 
 const VolleyballPage = () => {
   return (
-    <div>VolleyballPage</div>
+    <div>
+        <div>
+            <Link to="/">Back</Link>
+        </div>
+        <div></div>
+    </div>
   )
 }
 

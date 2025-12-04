@@ -1,8 +1,13 @@
-
+import { Link } from "react-router";
 
 const SoccerPage = () => {
   return (
-    <div>SoccerPage</div>
+    <div>
+        <div>
+            <Link to="/">Back</Link>
+        </div>
+        <div></div>
+    </div>
   )
 }
 
