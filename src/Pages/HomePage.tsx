@@ -1,6 +1,8 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
     const sports = ["volleyball", "soccer", "basketball"]
+
   // helper to capitalize first letter
   function capitalize(word: string): string {
     const capitalizedWord: string = word.charAt(0).toUpperCase() + word.slice(1);
@@ -8,7 +10,7 @@ const HomePage = () => {
   }
 
   return (
-     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-100 to-blue-300 p-6">
+     <div className="min-h-screen flex flex-col items-center justify-center bg-linear-to-r from-blue-100 to-blue-300 p-6">
       <h1 className="text-4xl font-bold text-blue-800 mb-4">Welcome to the Score Counter App!</h1>
       <p className="text-lg text-gray-700 mb-6">Please choose your sport</p>
 
